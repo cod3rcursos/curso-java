@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-12">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="libs/byte-buddy-1.10.2.jar"/>
+	<classpathentry kind="lib" path="libs/classmate-1.3.4.jar"/>
+	<classpathentry kind="lib" path="libs/dom4j-2.1.1.jar"/>
+	<classpathentry kind="lib" path="libs/FastInfoset-1.2.15.jar"/>
+	<classpathentry kind="lib" path="libs/hibernate-commons-annotations-5.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="libs/hibernate-core-5.4.8.Final.jar"/>
+	<classpathentry kind="lib" path="libs/istack-commons-runtime-3.0.7.jar"/>
+	<classpathentry kind="lib" path="libs/jandex-2.0.5.Final.jar"/>
+	<classpathentry kind="lib" path="libs/javassist-3.24.0-GA.jar"/>
+	<classpathentry kind="lib" path="libs/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="libs/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="libs/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="libs/jaxb-runtime-2.3.1.jar"/>
+	<classpathentry kind="lib" path="libs/jboss-logging-3.3.2.Final.jar"/>
+	<classpathentry kind="lib" path="libs/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="libs/mysql-connector-java-5.1.48.jar"/>
+	<classpathentry kind="lib" path="libs/stax-ex-1.8.jar"/>
+	<classpathentry kind="lib" path="libs/txw2-2.3.1.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

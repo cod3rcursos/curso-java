@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faceted-project>
+  <fixed facet="jpt.jpa"/>
+  <fixed facet="java"/>
+  <installed facet="java" version="12"/>
+  <installed facet="jpt.jpa" version="2.1"/>
+</faceted-project>
