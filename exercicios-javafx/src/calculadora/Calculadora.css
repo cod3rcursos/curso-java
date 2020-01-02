@@ -1,0 +1,87 @@
+/* Estilos usados na classe Calculadora  */
+
+.calculadora {
+	-fx-background-color: #323233;
+	-fx-opacity: 0.97;
+	-fx-background-radius: 8;
+	-fx-border-radius: 8;
+	-fx-font-family: "Roboto";
+}
+
+/* Estilos usados na classe Botao  */
+
+.botao {
+	-fx-background-color: #636465;
+	-fx-font-size: 21px;
+    -fx-text-fill: #FFF;
+	-fx-min-height: 46px;
+	-fx-min-width: 56px;
+	-fx-background-radius: 0;
+	-fx-padding: 0;
+}
+
+.botao:pressed {
+	-fx-background-color: #BBB;
+}
+
+.botao:focused {
+	-fx-background-insets: 0 0 -1 0;
+}
+
+.operacao {
+	-fx-background-color: #FFA00A;
+	-fx-font-size: 28px;
+}
+
+.escuro {
+	-fx-background-color: #494949;	
+}
+
+.duplo {
+	-fx-min-width: 114px;
+}
+
+.arredondado-e {
+	-fx-background-radius: 0 0 0 8;
+	-fx-border-radius: 0 0 0 8;
+}
+
+.arredondado-d {
+	-fx-background-radius: 0 0 8 0;
+	-fx-border-radius: 0 0 8 0;	
+}
+
+/* Estilos usados na classe Display  */
+
+.display {
+	-fx-pref-height: 200px;
+	-fx-background-color: #2D2D31;
+	-fx-padding: 0 10;
+}
+
+.texto-display {	
+	-fx-font-size: 44px;
+    -fx-text-fill: #fff;
+    -fx-padding: 0;
+}
+
+/* Estilos usados na classe BarraTitulo  */
+
+.barra-titulo {
+	-fx-background-color: #2D2D31;
+	-fx-padding: 5 0 1 8;
+	-fx-background-radius: 8 8 0 0;
+	-fx-border-radius: 8 8 0 0;
+}
+
+.botao-fechar {
+	-fx-font-size: 14px;
+	-fx-text-fill: #000;
+	-fx-min-height: 12px;
+	-fx-max-height: 12px;
+	-fx-min-width: 12px;
+	-fx-max-width: 12px;
+	-fx-background-radius: 6px;
+	-fx-background-color: #F9544D;
+	-fx-padding: -5 0 0 0;
+}
