@@ -5,7 +5,7 @@ public class CompraTeste {
 	public static void main(String[] args) {
 		
 		Compra compra1 = new Compra();
-		compra1.cliente = "Joãp Pedro";
+		compra1.cliente = "João Pedro";
 		
 		compra1.adicionarItem("Caneta", 20, 7.45);
 		compra1.adicionarItem(new Item("Borracha", 12, 3.89));
